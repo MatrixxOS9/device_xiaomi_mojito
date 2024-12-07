@@ -15,12 +15,11 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Some Build Flags
-TARGET_BOOT_ANIMATION_RES := 1080
-MATRIXX_CHIPSET := SNAPDRAGON-678
-MATRIXX_BATTERY := 5000mah
-MATRIXX_DISPLAY := 1080x2400
-WITH_GMS := true
-MATRIXX_MAINTAINER := Zeyy
+ALPHA_BUILD_TYPE := Unofficial
+ALPHA_MAINTAINER := Zeyyゼイ
+TARGET_ENABLE_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BUILD_PACKAGE := 1
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
