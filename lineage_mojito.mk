@@ -19,8 +19,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 MATRIXX_CHIPSET := SNAPDRAGON-678
 MATRIXX_BATTERY := 5000mah
 MATRIXX_DISPLAY := 1080x2400
-WITH_GMS := true
-MATRIXX_MAINTAINER := Zeyy
+MATRIXX_MAINTAINER := Zeyyゼイ
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mojito
