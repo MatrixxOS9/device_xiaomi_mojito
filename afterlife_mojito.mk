@@ -16,6 +16,8 @@ $(call inherit-product, vendor/afterlife/config/common_full.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
+AFTERLIFE_MAINTAINER := Zeyy
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := afterlife_mojito
