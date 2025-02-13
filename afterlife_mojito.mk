@@ -11,18 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mojito device
 $(call inherit-product, device/xiaomi/mojito/device.mk)
 
-# Inherit some LineageOS stuffs
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some afterlife stuffs
+$(call inherit-product, vendor/afterlife/config/common_full.mk)
 
 # Some Build Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-MATRIXX_CHIPSET := SNAPDRAGON-678
-MATRIXX_BATTERY := 5000mah
-MATRIXX_DISPLAY := 1080x2400
-MATRIXX_MAINTAINER := Zeyyゼイ
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_mojito
+PRODUCT_NAME := afterlife_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10
